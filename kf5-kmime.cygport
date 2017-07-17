@@ -1,7 +1,7 @@
 inherit kf5
 
 NAME="kf5-kmime"
-VERSION=16.08.3
+VERSION=17.04.3
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="KDE mail/news message library"
@@ -13,6 +13,7 @@ PKG_NAMES="libKF5Mime5 libKF5Mime-devel"
 libKF5Mime5_CONTENTS="
 	usr/bin/cygKF5Mime-5.dll
 	usr/share/doc/${NAME}
+	usr/share/locale/*/LC_MESSAGES/libkmime5.mo
 "
 libKF5Mime_devel_REQUIRES="libQt5Core-devel"
 libKF5Mime_devel_CONTENTS="
